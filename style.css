@@ -155,6 +155,7 @@ footer div u {
   font-weight: 600;
   color: green;
   position: relative;
+  border-radius: 5px;
 }
 .frames-mess i {
   position: absolute;
@@ -163,7 +164,9 @@ footer div u {
   cursor: pointer;
   right: 2%;
 }
-
+.sumPoint {
+  padding: 0 10px 0 0;
+}
 @keyframes animation {
   0% {
     transform: translateX(5px);

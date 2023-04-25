@@ -56,7 +56,7 @@ const handle_input = () => {
 const handle_time = () => {
   const endTime = $(".time");
   const mess = $(".mess");
-  const sumPoint = $(".sumPoint");
+  const sumPoint = $(".sumPoint-number");
   const point = $(".sum-point");
 
   let number = 60;
@@ -82,7 +82,7 @@ const handle_time = () => {
 const handle_close_mess = () => {
   const close = $(".close");
   const mess = $(".mess");
-  const sumPoint = $(".sumPoint");
+  const sumPoint = $(".sumPoint-number");
 
   close.onclick = () => {
     mess.style.display = "none";
@@ -90,4 +90,5 @@ const handle_close_mess = () => {
     input.removeAttribute("disabled", " ");
   };
 };
+const clickMenu = () => {};
 main();
